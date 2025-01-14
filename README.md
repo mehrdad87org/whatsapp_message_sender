@@ -26,5 +26,5 @@ This is a Python script that automates sending messages on WhatsApp Web using Se
    git clone https://github.com/mehrdad87org/whatsapp_message_sender.git
    cd whatsapp_message_sender
    pip install -r requirements.txt
-   python whatsapp_sender.py
+   python whatsapp.py
    
