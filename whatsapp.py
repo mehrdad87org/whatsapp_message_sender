@@ -6,7 +6,7 @@ from colorama import init, Fore, Style
 import time
 import os
 
-driver_path = 'C:/Users/mehrdad/Desktop/selenium/driver/chromedriver-win64/chromedriver.exe'
+driver_path = 'YOUR_DRIVER_PATH'
 service = Service(driver_path)
 browser = webdriver.Chrome(service=service)
 browser.get('https://web.whatsapp.com/')
